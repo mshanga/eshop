@@ -1,0 +1,24 @@
+{
+  "name": "eshop",
+  "description": "A simple and powerful Eshop solution written in Total.js / Node.js.",
+  "version": "11.0.0",
+  "main": "release.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/totaljs/eshop"
+  },
+  "dependencies": {
+    "paypal-express-checkout": "latest",
+    "total.js": "latest"
+  },
+  "scripts": {
+    "start": "node debug.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eshop",
+    "ecommerce"
+  ],
+  "author": "Emmanuel Makonde",
+  "license": "MIT"
+}
