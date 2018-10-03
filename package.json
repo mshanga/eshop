@@ -5,10 +5,11 @@
   "main": "release.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/totaljs/eshop"
+    "url": "https://github.com/mshanga/eshop"
   },
   "dependencies": {
-    "paypal-express-checkout": "latest",
+    "nodemon": "^1.18.4",
+    "paypal-express-checkout": "^1.6.3",
     "total.js": "latest"
   },
   "scripts": {
