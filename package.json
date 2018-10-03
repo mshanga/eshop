@@ -8,7 +8,6 @@
     "url": "https://github.com/mshanga/eshop"
   },
   "dependencies": {
-    "nodemon": "^1.18.4",
     "paypal-express-checkout": "^1.6.3",
     "total.js": "latest"
   },
