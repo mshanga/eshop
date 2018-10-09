@@ -1,6 +1,5 @@
 FROM node:latest
-WORKDIR ${PWD}
-RUN npm install -g nodemon
+WORKDIR /src/
 RUN npm install
 ADD ./ /src/
-CMD ["nodemon", "debug.js"]
+CMD ["node", "debug.js"]

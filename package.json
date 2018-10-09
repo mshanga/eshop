@@ -12,7 +12,7 @@
     "total.js": "latest"
   },
   "scripts": {
-    "start": "node release.js",
+    "start": "node debug.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -20,5 +20,8 @@
     "ecommerce"
   ],
   "author": "Emmanuel Makonde",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
 }
